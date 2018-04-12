@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Oschadpay_OschadpayOnPage>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Paygate/>
+                <Mage_Sales/>
+                <Mage_Checkout/>
+            </depends>
+        </Oschadpay_OschadpayOnPage>
+    </modules>
+</config>
